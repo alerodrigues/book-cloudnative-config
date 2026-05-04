@@ -4,7 +4,7 @@ server:
   netty:
     connection-timeout: 2s
     idle-timeout: 15s
-	
+
 spring:
   application:
     name: book-cloudnative-config
@@ -13,5 +13,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/alerodrigues/book-cloudnative-config
+          uri: https://github.com/alerodrigues/book-cloudnative-config/config
           default-label: main	
